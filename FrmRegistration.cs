@@ -60,6 +60,7 @@ namespace Text_FileApp
 
                 MessageBox.Show("Registration successful! Check " + folderPath);
 
+
             }
             catch (FormatException ex)
             {
@@ -76,13 +77,13 @@ namespace Text_FileApp
 
                 cmbProgram.Items.Add(program);
             }
-            string [] Gender = {"Male", "Female" };
+            string[] Gender = { "Male", "Female" };
             foreach (string gender in Gender)
             {
                 cmbGender.Items.Add(gender);
             }
             cmbGender.SelectedIndex = 0;
-           
+
         }
     }
 }
